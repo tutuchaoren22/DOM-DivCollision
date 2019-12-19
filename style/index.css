@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.area-box {
+    position: relative;
+    width: 1000px;
+    height: 800px;
+    margin: 50px auto;
+    background-color: rgb(240, 240, 240);
+}
+
+.yellow-box,
+.green-box {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+}
+
+.yellow-box {
+    left: 200px;
+    top: 350px;
+    background-color: yellow;
+}
+
+.green-box {
+    background-color: green;
+}
